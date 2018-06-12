@@ -27,11 +27,7 @@ public class testProbe2Test {
   @Before
   public void setUp() throws Exception {
       
-      //  File pathBinary = new File("C:\\Program Files\\Mozilla Firefox\\firefox.exe");
-       // FirefoxBinary firefoxBinary = new FirefoxBinary(pathBinary);   
-       // DesiredCapabilities desired = DesiredCapabilities.firefox();
-        //FirefoxOptions options = new FirefoxOptions();
-        //desired.setCapability(FirefoxOptions.FIREFOX_OPTIONS, options.setBinary(firefoxBinary));
+     
       
     driver = new ChromeDriver();
     baseUrl = "https://s1.demo.opensourcecms.com/";
